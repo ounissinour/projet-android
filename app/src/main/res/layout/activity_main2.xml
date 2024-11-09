@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/je"
+    android:orientation="vertical"
+    tools:context=".MainActivity2">
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="20dp"
+        android:fontFamily="@font/beth_ellen"
+        android:gravity="center"
+        android:text="Autorent"
+        android:textColor="@color/white"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/font"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="100dp"
+        android:fontFamily="@font/beth_ellen"
+        android:gravity="center"
+        android:text="Rent the cars of your dreams"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:fontFamily="@font/beth_ellen"
+        android:gravity="center"
+        android:text="and drive in style!"
+        android:textColor="@color/white"
+        android:textSize="12sp" />
+    <Button
+        android:id="@+id/btnStart"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="300dp"
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="Get Started"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="18.sp" />
+
+    <Button
+        android:id="@+id/btnSignIn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:insetLeft="20dp"
+        android:insetRight="20dp"
+        android:text="Sign-In"
+        android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+        android:textColor="@color/white"
+        android:textSize="18.sp"
+        />
+
+</LinearLayout>
