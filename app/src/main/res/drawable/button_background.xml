@@ -1,0 +1,6 @@
+<!-- res/drawable/button_background.xml -->
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#3498DB"/> <!-- Couleur de fond du bouton -->
+    <corners android:radius="25dp"/> <!-- Bordures arrondies -->
+    <size android:height="58dp"/> <!-- Taille du bouton -->
+</shape>
