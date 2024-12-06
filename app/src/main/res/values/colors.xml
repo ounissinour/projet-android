@@ -10,4 +10,11 @@
 
     <color name="light_beige">#FAF7F0</color>
     <color name="purple">#4A4947</color>
+
+    <color name="gray_50">#FAFAFA</color>
+    <color name="gray_400">#9CA3AF</color>
+    <color name="gray_500">#6B7280</color>
+    <color name="gray_600">#4B5563</color>
+    <color name="gray_900">#111827</color>
+    <color name="green_600">#059669</color>
 </resources>

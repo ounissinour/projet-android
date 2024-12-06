@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">AutoRent</string>
+    <string name="location_de_voitures">Location de voitures</string>
+    <string name="trouvez_la_voiture_parfaite_pour_votre_voyage">Trouvez la voiture parfaite pour votre voyage</string>
 </resources>

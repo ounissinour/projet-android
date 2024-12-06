@@ -29,16 +29,24 @@ public class LoginActivity extends AppCompatActivity {
         signupTextView = findViewById(R.id.signupTextView); // Trouvez le TextView de l'inscription
 
         // Gérer le clic sur le bouton de connexion
+        // Gérer le clic sur le bouton de connexion
         loginButton.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
+                // Vérifier les informations de connexion
                 if (username.getText().toString().equals("user") && password.getText().toString().equals("1234")) {
                     Toast.makeText(LoginActivity.this, "Login Successful!", Toast.LENGTH_SHORT).show();
+                    // Lancer l'activité AccueilActivity
+                    Intent intent = new Intent(LoginActivity.this, acceuilActivity.class);
+                    startActivity(intent);
+                    // Optionnel : Finir l'activité Login pour ne pas revenir en arrière
+                    finish();
                 } else {
                     Toast.makeText(LoginActivity.this, "Login Failed!", Toast.LENGTH_SHORT).show();
                 }
             }
         });
+
 
         // Gérer le clic sur le TextView "SignUp Now"
         signupTextView.setOnClickListener(new View.OnClickListener() {
